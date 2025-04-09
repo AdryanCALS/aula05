@@ -17,6 +17,21 @@
 #         print("*", end=" ")
 #     print()
 #triangulo numeros
-for i in range(1,5):
-    for j in range(1,i):
-        print
+# x = 0
+# for i in range(0,5):
+#     for j in range(0,i):
+#         x += 1
+#         print(x, end=" ")
+#     x = 0
+#     print()
+#triangulo numeros ao contrarrio
+
+x = 0
+for i in range(0,5):
+    for j in range(0,i):
+        for k in range(0,i):
+            print(" ", end="")
+        x += 1
+        print(x, end=" ")
+    x = 0
+    print()
